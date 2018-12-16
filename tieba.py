@@ -37,7 +37,8 @@ def getcontent(url):
                 comment['name'] = name['title'].strip()
             else:
                 comment['name'] = li.find('span', attrs = {'class': 'tb_icon_author no_icon_author'})['title'].strip()
-            comment['time'] = li.find('span', attrs = {'class': 'pull-right is_show_create_time'}).text.strip()
+            # comment['time'] = li.find('span', attrs = {'class': 'pull-right is_show_create_time'}).text.strip()
+            comment['time'] = li.find('span', class_ = 'pull-right is_show_create_time').text.strip()
             comment['replyNum'] = li.find('span', attrs= {'class': 'threadlist_rep_num center_text'}).text.strip()
             comments.append(comment)
 
