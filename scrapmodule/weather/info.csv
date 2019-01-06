@@ -1,0 +1,8 @@
+H_temperature,L_temperature,date,img,weather,week,wind
+7,6,01月06日,//static.tianqistatic.com/static/wap2018/ico1/b2.png,阴,星期日,西北风
+8,5,01月07日,//static.tianqistatic.com/static/wap2018/ico1/b2.png,阴,星期一,东北风
+7,4,01月08日,//static.tianqistatic.com/static/wap2018/ico1/b2.png,阴,星期二,东北风
+6,3,01月09日,//static.tianqistatic.com/static/wap2018/ico1/b2.png,阴,星期三,东风
+9,5,01月10日,//static.tianqistatic.com/static/wap2018/ico1/b7.png,小雨,星期四,东风
+10,6,01月11日,//static.tianqistatic.com/static/wap2018/ico1/b2.png,阴,星期五,北风
+10,3,01月12日,//static.tianqistatic.com/static/wap2018/ico1/b7.png,小雨到中雨,星期六,东北风
