@@ -6,7 +6,7 @@ class SztianqiSpider(scrapy.Spider):
     name = 'SZtianqi'
     allowed_domains = ['tianqi.com']
     start_urls = ['http://www.tianqi.com/shanghai/']
-    
+
     def parse(self, response):
         items = []
 
